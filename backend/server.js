@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: "*",
+    origin: "https://portfolio-website-ochre-ten-87.vercel.app/",
     methods: ["GET", "POST"],
     // credentials: true,
   })
